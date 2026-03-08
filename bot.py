@@ -26,7 +26,7 @@ Signal: {direction}
 
     await update.message.reply_text(msg)
 
-app = ApplicationBuilder().token("PUT_TOKEN_HERE").build()
+app = ApplicationBuilder().token("8781347026:AAGKmToy2Gln5qlbNkGnCmdJsxxGqb8qAKA").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT, signal))
